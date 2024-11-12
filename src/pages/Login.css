@@ -1,0 +1,49 @@
+/* Login.css */
+/* body {
+    background-color: rgb(199, 133, 133);
+    margin: 0;
+    font-family: Arial, sans-serif;
+} */
+
+.login-container{
+    height:100vh ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('https://plus.unsplash.com/premium_photo-1669704841817-fdc6eb89445e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    
+    
+}
+/* Card Container */
+.card-container {
+    position: relative; /* Positioning for absolute child elements */
+    background: rgba(255, 255, 255, 0.2); /* Light white background with transparency */
+    backdrop-filter: blur(25px); /* Apply blur effect */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect for depth */
+    padding: 20px; /* Padding inside the card */
+    max-width: 400px; /* Max width for the card */
+    margin: auto; /* Center the card */
+    transition: transform 0.3s; /* Smooth scale effect */
+}
+
+/* Fade-in effect */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards; /* Fade in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Additional styles for button hover effects */
+button:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s; /* Smooth scaling effect */
+}
