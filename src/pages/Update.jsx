@@ -55,7 +55,7 @@ const Update = () => {
       const updatedCard = new FormData();
       updatedCard.append('title', formData.title);
       updatedCard.append('description', formData.description);
-      updatedCard.append('price', formData.price);
+      updatedCard.append('price', formData.price); 
       updatedCard.append('categoryID', formData.categoryID);
       
   
